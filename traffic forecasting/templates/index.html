@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City Simulator</title>
+</head>
+<body>
+    <h1>City Management Game</h1>
+    <form method="post">
+        <label>Traffic:</label>
+        <input type="number" name="traffic" value="50"><br><br>
+
+        <label>Pollution:</label>
+        <input type="number" name="pollution" value="40"><br><br>
+
+        <label>Happiness:</label>
+        <input type="number" name="happiness" value="30"><br><br>
+
+        <label>Action:</label>
+        <select name="action">
+            <option value="invest_traffic">Invest in Traffic</option>
+            <option value="invest_pollution">Invest in Pollution</option>
+            <option value="invest_happiness">Invest in Happiness</option>
+        </select><br><br>
+
+        <button type="submit">Simulate</button>
+    </form>
+
+    {% if result %}
+        <h2>Results</h2>
+        <p><b>New State:</b> {{ result.new_state }}</p>
+        <p><b>Reward:</b> {{ result.reward }}</p>
+        <p><b>Budget Left:</b> {{ result.budget }}</p>
+        <p><b>Game Over:</b> {{ result.done }}</p>
+    {% endif %}
+</body>
+</html>
