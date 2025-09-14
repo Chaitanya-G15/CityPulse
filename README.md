@@ -54,6 +54,7 @@ npm start
 🔗 Access the dashboard at: http://localhost:3000
 
 ### 📂 Project Structure
+```
 CityPulse/
 ├── backend/           # Backend APIs & data processing
 ├── frontend/          # Frontend dashboard (React/Vue)
@@ -63,6 +64,7 @@ CityPulse/
 ├── requirements.txt   # Python dependencies
 ├── package.json       # Frontend dependencies
 └── README.md
+```
 
 ### 🚀 Usage
 
