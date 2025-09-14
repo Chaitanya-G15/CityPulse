@@ -18,40 +18,37 @@ By leveraging **IoT sensors, APIs, and public datasets**, CityPulse provides act
 ## ⚡️ Getting Started
 
 ### 1️⃣ Clone the Repository
-
+```
 git clone https://github.com/Chaitanya-G15/CityPulse.git
 cd CityPulse
-
+```
 ### 2️⃣ Install Dependencies
 
-Backend (Python 3.x required):
-
+#### Backend (Python 3.x required):
+```
 pip install -r requirements.txt
+```
 
-
-Frontend (Node.js required):
-
+#### Frontend (Node.js required):
+```
 cd frontend
 npm install
+```
 
-### 3️⃣ Setup Environment Variables
+### 3️⃣ Run the Application
 
-Copy .env.example → .env and configure your secrets (API keys, DB connections, etc.).
-
-### 4️⃣ Run the Application
-
-Start the backend:
-
+#### Start the backend:
+```
 python app.py
+```
 
-
-Start the frontend:
-
+#### Start the frontend:
+```
 cd frontend
 npm start
+```
 
-
-🔗 Access the dashboard at: http://localhost:3000
+#### 🔗 Access the dashboard at: http://localhost:3000
 
 ### 📂 Project Structure
 ```
@@ -85,14 +82,14 @@ git checkout -b feature/your-feature
 
 
 Commit your changes:
-
+```
 git commit -am 'Add new feature'
-
+```
 
 Push to your branch:
-
+```
 git push origin feature/your-feature
-
+```
 
 Open a Pull Request 🚀
 
